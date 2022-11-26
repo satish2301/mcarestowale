@@ -1,0 +1,520 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    /* background-color: black; */
+}
+/* video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+} */
+.main-part{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.6),
+     rgba(0, 0, 0, 0.3)), url('../src/Image/background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width:100%!important;
+
+}
+
+.btn {
+    border-radius: 20px !important;
+    color: white !important;
+    position: relative;
+    z-index: 111;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: rgb(200, 142, 34);
+}
+
+
+.navbar-brand {
+    color: white !important;
+    font-size: 25px !important;
+}
+
+ul li {
+    font-size: 20px !important;
+   position: relative;
+   z-index: 99999;
+}
+
+ul li:hover .link {
+    color: white !important;
+    font-weight: 500;
+    
+    position: relative;
+    z-index: 2222;
+}
+
+.link {
+    color: rgba(255, 255, 255, 0.5) !important;
+    position: relative;
+    z-index: 2222;
+}
+
+.hero-part {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+/* background-color: black; */
+position: absolute;
+top: 100px;
+
+}
+.icon-part{
+    position: relative;
+    top: 150px;
+    right: 30px;
+}
+.hero-part h5 {
+
+    font-weight: 800;
+    color: white;
+    font-size: 14px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-part h1 {
+    color: white;
+    
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-part p {
+    color: white;
+    
+}
+
+.hero-part p .highlight {
+    border-bottom: 5px solid orange;
+}
+
+.icon ul li {
+
+    background-color: rgb(255, 255, 255);
+    margin: 0px 5px;
+    width: 40px;
+    height: 40px;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 2s ease-in;
+}
+
+.icon ul li :hover {
+    transform: translateY(-2px);
+}
+
+
+/* ************************************ */
+
+
+.food-item{
+    min-height: 100vh;
+    background-color: #fee2b3;
+    /* padding: 100px; */
+}
+.foods-name{
+    padding: 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.foods-name1{
+    padding: 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.foods-name1:hover{
+    background-color: azure;
+   padding: 19px;
+    border-radius: 40px;
+    margin-top: 20px;
+    color: #ff5200;;
+    box-shadow: 0 15px 30px 0 #ebca92;
+}
+.drinks:hover{
+    color: #ff5200!important;
+}
+
+.foods-name:hover{
+    background-color: azure;
+   padding: 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+    color: #ff5200;;
+    box-shadow: 0 15px 30px 0 #ebca92;
+}
+.foods-name:hover .breakfast-name{
+    color: #ff5200;
+}
+
+.breakicon{
+    width: 10%;
+}
+.breakfast-name{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+   color: black;
+}
+
+.card{
+    box-sizing: border-box;
+    overflow: hidden;
+
+    }
+    .card img{
+        transition: all 0.4s ease-in;
+    }
+.card img:hover{
+    transform: scale(1.1);
+
+}
+.card-name{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.card-price{
+    font-size: 14px;
+    color: #ff5200;
+}
+.food-muted{
+    font-size: 15px;
+    letter-spacing: 3px;
+    
+    color: rgb(115, 110, 110);
+}
+.food-heading{
+    font-size: 37px;
+    font-weight: 200;
+}
+.food-heading span{
+    color: #ff5200;
+}
+
+/* ***********************************POPULAR CARD */
+
+.popular-card{
+    border: 1px solid rgb(224, 207, 207);
+    padding: 20px;
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+    
+}
+.popular-card p{
+    color: #ff5200;
+}
+.popular-card:hover{
+    background-color: #fff;
+    transform: 1.1;
+    border: 1px solid transparent;
+}
+
+/* *********************************************** */
+    /* testmonal */
+
+    .testmonal{
+        font-family: 'Roboto', sans-serif;
+       min-height: 100vh;
+       background-image:url("https://preview.colorlib.com/theme/meal2/images/xhero_bg_2.jpg.pagespeed.ic._RWbA_MDF0.webp");
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+    }
+.overlay-back-test{
+    background: rgba(245, 216, 165, 0.548);
+
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  margin: 0px -12px;
+  min-height: 100vh;
+
+}
+
+.slider h5{
+    color: black;
+    font-weight: 900;
+}
+.slider p{
+    color: rgb(70, 0, 108);
+    font-weight: 500;
+    font-size: 30px;
+}
+.testimonal-card{
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.testimonal-card:hover img{
+   transform: scale(1.2);
+}
+.testimonal-card img{
+    width: 100%;
+    
+    transition: all 0.7s ease-in-out;
+}
+
+/* *******************************************
+    ENJOY EVENT PART
+*/
+.enjoy-event{
+    padding: 50px 0px;
+    background-color: #ebca92;
+}
+.muted{
+    font-size: 15px;
+   
+    
+    color: rgb(115, 110, 110);
+}
+
+/* ******************************** */
+            /* booktable part */
+
+  .book-table{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(https://preview.colorlib.com/theme/meal2/images/xhero_bg_2.jpg.pagespeed.ic._RWbA_MDF0.webp);
+  }
+  .book-table-overllay{
+    background: rgba(245, 201, 126, 0.9);
+  -webkit-backdrop-filter: blur(5px);
+ 
+   
+  backdrop-filter: blur(5px);min-height: 50vh;
+  }
+  .book-table-data{
+  padding-top: 80px;
+  }
+  .table-btn{
+    background: #ff5200;
+    border-color: #ff5200;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    transition: all 0.5s;
+  }
+  .table-btn:hover{
+    transform: scale(1.1);
+  }
+
+
+  /* ********************************** */
+    /* footer part */
+   .footer{
+    background: #645f56;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 70px 0;
+   }
+   .footer-icon{
+    margin-top: 60px;
+   }
+  .footer-icon span{
+    /* width: 50px;
+     height: 50px; */
+    padding: 11px 14px;
+     background-color: #ffffff;
+     margin: 0px 3px;
+     border-radius: 50%;
+     box-shadow: 2px 3px 10px #e3a6a6;
+     
+  }
+  .footer-icon span:hover{
+    background-color: #dc8258;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+
+  /* ************************************** */
+
+       /* gallery part */
+
+       .galler-card{
+        box-sizing: border-box;
+        overflow: hidden;
+
+       }
+       .galler-card img{
+        transition: all 0.5s linear;
+       }
+       .galler-card:hover img{
+        transform: scale(1.1);
+       }
+
+
+
+
+       /* ********************************* */
+        /* contact-form */
+       
+        .contact-form{
+            background-color:#ebca92;
+            padding: 50px 0px;
+        }
+       .location-icon{
+        background-color: #ff5200;
+        padding: 10px;
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .location-data{
+        margin-left: 16px;
+       }
+       
+
+       form .name-part input{
+          width: 40%;
+          padding: 10px 5px;
+          background-color: transparent;
+          border: 1px solid #43434d;;
+          outline: none;
+       }
+       form input{
+        padding: 10px 5px;
+        background-color: transparent;
+        border: 1px solid #43434d;;
+        outline: none;
+       }
+       form textarea{
+        padding: 10px 5px;
+        background-color: transparent;
+        border: 1px solid #43434d;;
+        outline: none;
+       }
+       form .sendbtn{
+        background-color: #ff5200;
+        color: #fff;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+       }
+       form .sendbtn:hover{
+        transform: scale(1.1);
+       }
+
+       /* ************************************* */
+     .onlinebook{
+        background-color: #ebca92;;
+        min-height: 50vh;
+     }
+     .left-card-name{
+        padding: 10px;
+        border-radius: 30px;
+        border: 1px solid rgb(84, 84, 84);
+        text-align: center;
+        margin-bottom: 10px;
+     }
+     .left-card-name:hover{
+        cursor: pointer;
+        background-color: #dc8258;
+     }
+     .image-online{
+        box-sizing: border-box;
+        overflow: hidden;
+     }
+     .image-online img{
+        transition: all 0.5s;
+     }
+     .image-online img:hover{
+        transform: scale(1.1);
+     }
+     .right-card-online{
+        border: 2px solid sandybrown;
+     }
+     .right-card-online button{
+        margin-top: 10px;
+        width: 100px;
+        padding: 10px;
+        
+     }
+/* **************************************** */
+/* personal info */
+
+.personal-info{
+   min-height: 50vh;
+   padding: 20px 0px;
+    /* background-color: #ebca92; */
+}
+.personal-img{
+    width: 100%;
+    transform: translateY(50px);
+     border-radius: 0px 0px 20px 20px;
+}
+
+       /* ****************************************************** */
+             /* Risponsive part */
+@media (max-width:1075px)
+{
+    .hero-part h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width:847px)
+{
+    .hero-part h1 {
+        font-size: 50px;
+    }
+    .hero-part h5{
+        font-size:10px ;
+    }
+    .food-muted{
+        margin-left: 20px;
+    }
+    .food-heading{
+        margin-left: 30px;
+    }
+    .tag-name{
+        margin-left: 20px;
+    }
+    .number-count{
+        transform: translateY(-10px);
+    }
+    .personal-img{
+        transform: translateY(0px);
+        border-radius: 0px 0px 100px 140px;
+    }
+    
+}
+@media (max-width:445px){
+    .main-navbar{
+        margin-left: -70px;
+    }
+    .navbar-toggler{
+        margin-right: -55px;
+        
+    }
+}
